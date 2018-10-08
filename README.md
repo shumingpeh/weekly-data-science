@@ -34,64 +34,28 @@ Any good advanced calculus textbook will be useful as supplementary reading
 ## Lesson Plans (and how does everything tie in together)
 |Lesson No.   |Specific Learning Objective for the Lesson   |Topics Covered   |Which Topic does it Relate to   |
 |---		  |---											|---			  |---							   |
-|1   |Intro to Basic Python   |<ul><li>Installation of python and jupyter notebook</li><li>Installation of python packages</li></ul>  |<ul><li>Installation of python and jupyter notebook</li></ul> |
-|2   |Intro to Pandas and Visualization   |   |   |
-|3   |Intro to Python Class Files   |   |   |
-|4   |Intro to SQL and Version Control   |   |   |
-|5   |Intro to Statistics and Probability Theory   |   |   |
-|6   |Intro to Linear Regression*   |   |   |
-|7   |Intro to Linear Algebra*   |   |   |
-|8   |Intro to Time Series Analysis*   |   |   |
-|9   |Intro to Optimization and Numerical Methods*   |   |   |
-|10   |Intro to Classical Machine Learning Algorithms*   |   |   |
+|1   |Intro to Basic Python   |<ul><li>Installation of python and jupyter notebook</li><li>Installation of python packages</li><li>Basic syntax</li><li>Basic string manipulations</li></ul>  |<ul><li>Used in coding</li></ul> |
+|2   |Intro to Pandas and Visualization   |<ul><li>Basic data manipulation and wrangling and transformation</li><li>Basic creation of functions</li><li>Basic visualization of data</li></ul>   |<ul><li>Used in coding</li></ul>   |
+|3   |Intro to Python Class Files   |<ul><li>Creation of python class files</li><li>Basic idea of code modularization with class files</li></ul>   |<ul><li>Used in coding</li></ul>   |
+|4   |Intro to SQL and Version Control   |<ul><li>SQL syntax</li><li>Join, union, window functions, having and with clauses</li><li>Introduction of Git and setup (SSH)</li></ul>   |<ul><li>Used in data extraction and basic transformation</li><li>Git is used in storage of files and tracking of progress</li></ul>   |
+|5   |Intro to Statistics and Probability Theory   |<ul><li>Intro to distributions</li><li>Intro to probability theory and assumptions</li><li>Intro to statistical testing</li><li>Intro to MLE</li><li>Intro to MGF</li></ul>   |<ul><li>Used in ML algorithms</li><li>ML algorithms have underlying distributions like Normal or exponential distribution</li><li>Getting the parameters of ML algos, MLE is often used</li></ul>   |
+|6   |Intro to Linear Regression*   |<ul><li>Intro to univariate</li><li>Intro to the loss function</li><li>Intro to getting parameters of regression using MLE</li><li>Intro to R-square, and adjusted R-square</li><li>Intro to variables significance</li><li>Intro to multiple regression</li></ul>   |<ul><li>Loss function is the objective function for ML algos</li><li>Linear regression is also a machine learning algo</li></ul>   |
+|7   |Intro to Linear Algebra*   |<ul><li>Intro to basic properties of matrices and vector spaces</li><li>Intro to solving system of linear equations with LA</li><li>Intro to eigen values/vectors</li><li>Intro to orthogonal</li><li>Intro to PCA</li><li>Intro to matrix factorization</li></ul>   |<ul><li>LA can also be used to solve linear regression</li><li>LA is often used in dimension reduction</li><li>LA links to ML algo like SVM and recommendation systems</li></ul>   |
+|8   |Intro to Time Series Analysis*   |<ul><li>Intro to stationary and non stationary series</li><li>Intro to stationary tests</li><li>Intro to ARIMA</li><li>Intro to exponential smoothing</li><li>Intro to state space models (BSTS)</li><li>Intro to distribution forecasting</li><li>Intro to probabilistic forecasting</li></ul>   |<ul><li>Not everything needs to be solved by ML</li></ul>   |
+|9   |Intro to Optimization and Numerical Methods*   |<ul><li>Intro to different optimization methods</li><li>Intro to splines</li><li>Intro to gradient descent</li><li>Intro to stochastic gradient descent</li></ul>   |<ul><li>Solving for loss function or the intuition of the loss function</li></ul>   |
+|10   |Intro to Classical Machine Learning Algorithms*   |<ul><li>Intro to supervised and unsupervised learning</li><li>Intro to unsupervised learning (clustering)</li><li>Intro to supervised learning</li><ul><li>Linear regression</li></ul></ul>  |   |
 |11   |Intro to Neural Networks*   |   |   |
 
 Lesson No.	Specific Learning Objective for the Lesson	Topics Covered	Which Topic does it Relate to
-1	Intro to Basic Python	•	Installation of python and jupyter notebook
-•	Installation of python packages
-•	Basic syntax
-•	Basic string manipulations	•	Used in coding
-2	Intro to Pandas and Visualization	•	Basic data manipulation and wrangling and transformation
-•	Basic creation of functions
-•	Basic visualization of data	•	Used in coding
-3	Intro to Python Class Files	•	Creation of python class files
-•	Basic idea of code modularization with class files	•	Used in coding
-4	Intro to SQL and Version Control	•	SQL syntax
-•	Join, union, window functions, having and with clauses
-•	Introduction of Git and setup (SSH)	•	Used in data extraction and basic transformation
-•	Git is used in storage of files and tracking of progress
-5	Intro to Statistics and Probability Theory	•	Intro to distributions
-•	Intro to probability theory and assumptions
-•	Intro to statistical testing
-•	Intro to MLE
-•	Intro to MGF	•	Used in ML algorithms
-•	ML algorithms have underlying distributions like Normal or exponential distribution
-•	Getting the parameters of ML algos, MLE is often used
-6	Intro to Linear Regression*	•	Intro to univariate
-•	Intro to the loss function
-•	Intro to getting parameters of regression using MLE
-•	Intro to R-square, and adjusted R-square
-•	Intro to variables significance
-•	Intro to multiple regression	•	Loss function is the objective function for ML algos
-•	Linear regression is also a machine learning algo
-7	Intro to Linear Algebra*	•	Intro to basic properties of matrices and vector spaces
-•	Intro to solving system of linear equations with LA
-•	Intro to eigen values/vectors
-•	Intro to orthogonal
-•	Intro to PCA
-•	Intro to matrix factorization	•	LA can also be used to solve linear regression
-•	LA is often used in dimension reduction
-•	LA links to ML algo like SVM and recommendation systems
-8	Intro to Time Series Analysis*	•	Intro to stationary and non stationary series
-•	Intro to stationary tests
-•	Intro to ARIMA
-•	Intro to exponential smoothing
-•	Intro to state space models (BSTS)
-•	Intro to distribution forecasting
-•	Intro to probabilistic forecasting	•	Not everything needs to be solved by ML
-9	Intro to Optimization and Numerical Methods*	•	Intro to different optimization methods
-•	Intro to splines
-•	Intro gradient descent	•	Solving for loss function or the intuition of the loss function
+
+
+
+
+
+
+
+
+
 10	Intro to Classical Machine Learning Algorithms*	•	Intro to supervised and unsupervised learning
 •	Intro to unsupervised learning (clustering)
 •	Intro to supervised learning
