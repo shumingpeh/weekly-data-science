@@ -34,8 +34,7 @@ Any good advanced calculus textbook will be useful as supplementary reading
 ## Lesson Plans (and how does everything tie in together)
 |Lesson No.   |Specific Learning Objective for the Lesson   |Topics Covered   |Which Topic does it Relate to   |
 |---		  |---											|---			  |---							   |
-|1   |Intro to Basic Python   |- Installation of python and jupyter notebook
-							   - Installation of python packages   |- Used in coding  |
+|1   |Intro to Basic Python   |<ul><li>Installation of python and jupyter notebook</li><li>Installation of python packages</li></ul>  |<ul><li>Installation of python and jupyter notebook</li></ul> |
 |2   |Intro to Pandas and Visualization   |   |   |
 |3   |Intro to Python Class Files   |   |   |
 |4   |Intro to SQL and Version Control   |   |   |
