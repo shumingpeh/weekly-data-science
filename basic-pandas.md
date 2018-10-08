@@ -147,58 +147,18 @@ df_list
 ```
 
 
+    ---------------------------------------------------------------------------
+
+    NameError                                 Traceback (most recent call last)
+
+    <ipython-input-19-d0a55d470667> in <module>()
+          3          ('Blue Inc', 140, 215, 95)]
+          4 column_name = ['account', 'Jan', 'Feb', 'Mar']
+    ----> 5 df_list = pd.DataFrame(sales, columns=labels)
+          6 df_list
 
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>account</th>
-      <th>Jan</th>
-      <th>Feb</th>
-      <th>Mar</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Jones LLC</td>
-      <td>150</td>
-      <td>200</td>
-      <td>50</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Alpha Co</td>
-      <td>200</td>
-      <td>210</td>
-      <td>90</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Blue Inc</td>
-      <td>140</td>
-      <td>215</td>
-      <td>95</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+    NameError: name 'sales' is not defined
 
 
 ### Dictionary
@@ -212,96 +172,6 @@ data = {'year': [2010, 2011, 2012, 2011, 2012, 2010, 2011, 2012],
 football = pd.DataFrame(data, columns=['year', 'team', 'wins', 'losses'])
 football
 ```
-
-
-
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>losses</th>
-      <th>team</th>
-      <th>wins</th>
-      <th>year</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>5</td>
-      <td>Bears</td>
-      <td>11</td>
-      <td>2010</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>8</td>
-      <td>Bears</td>
-      <td>8</td>
-      <td>2011</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>6</td>
-      <td>Bears</td>
-      <td>10</td>
-      <td>2012</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>1</td>
-      <td>Packers</td>
-      <td>15</td>
-      <td>2011</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>Packers</td>
-      <td>11</td>
-      <td>2012</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>10</td>
-      <td>Lions</td>
-      <td>6</td>
-      <td>2010</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>6</td>
-      <td>Lions</td>
-      <td>10</td>
-      <td>2011</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>12</td>
-      <td>Lions</td>
-      <td>4</td>
-      <td>2012</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
 
 ### CSV
 
@@ -680,7 +550,6 @@ raw_data.query("sessions == 1 & medium_grouped == 'organic'").head(3)
       <th>sessions</th>
       <th>funnel_sessions</th>
       <th>par</th>
-      <th>testing</th>
     </tr>
   </thead>
   <tbody>
@@ -694,7 +563,6 @@ raw_data.query("sessions == 1 & medium_grouped == 'organic'").head(3)
       <td>1</td>
       <td>1</td>
       <td>1.0</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>31</th>
@@ -706,7 +574,6 @@ raw_data.query("sessions == 1 & medium_grouped == 'organic'").head(3)
       <td>1</td>
       <td>0</td>
       <td>0.0</td>
-      <td>1</td>
     </tr>
     <tr>
       <th>32</th>
@@ -718,7 +585,6 @@ raw_data.query("sessions == 1 & medium_grouped == 'organic'").head(3)
       <td>1</td>
       <td>1</td>
       <td>1.0</td>
-      <td>1</td>
     </tr>
   </tbody>
 </table>
@@ -774,7 +640,6 @@ raw_data.head(2)
       <th>sessions</th>
       <th>funnel_sessions</th>
       <th>par</th>
-      <th>testing</th>
       <th>transformed_variable</th>
     </tr>
   </thead>
@@ -789,7 +654,6 @@ raw_data.head(2)
       <td>2</td>
       <td>1</td>
       <td>0.5</td>
-      <td>0.5</td>
       <td>4</td>
     </tr>
     <tr>
@@ -801,7 +665,6 @@ raw_data.head(2)
       <td>landingpage</td>
       <td>1</td>
       <td>1</td>
-      <td>1.0</td>
       <td>1.0</td>
       <td>1</td>
     </tr>
@@ -847,7 +710,6 @@ raw_data.head()
       <th>sessions</th>
       <th>funnel_sessions</th>
       <th>par</th>
-      <th>testing</th>
       <th>transformed_variable</th>
     </tr>
   </thead>
@@ -862,7 +724,6 @@ raw_data.head()
       <td>2</td>
       <td>1</td>
       <td>0.5</td>
-      <td>0.5</td>
       <td>4</td>
     </tr>
     <tr>
@@ -874,7 +735,6 @@ raw_data.head()
       <td>landingpage</td>
       <td>1</td>
       <td>1</td>
-      <td>1.0</td>
       <td>1.0</td>
       <td>1</td>
     </tr>
@@ -888,7 +748,6 @@ raw_data.head()
       <td>3</td>
       <td>3</td>
       <td>1.0</td>
-      <td>3.0</td>
       <td>9</td>
     </tr>
     <tr>
@@ -901,7 +760,6 @@ raw_data.head()
       <td>2</td>
       <td>2</td>
       <td>1.0</td>
-      <td>2.0</td>
       <td>4</td>
     </tr>
     <tr>
@@ -913,7 +771,6 @@ raw_data.head()
       <td>homepage</td>
       <td>5</td>
       <td>0</td>
-      <td>0.0</td>
       <td>0.0</td>
       <td>25</td>
     </tr>
@@ -1102,7 +959,6 @@ raw_data.head()
       <th>sessions</th>
       <th>funnel_sessions</th>
       <th>par</th>
-      <th>testing</th>
       <th>transformed_variable</th>
     </tr>
   </thead>
@@ -1117,7 +973,6 @@ raw_data.head()
       <td>2</td>
       <td>1</td>
       <td>0.5</td>
-      <td>0.5</td>
       <td>4</td>
     </tr>
     <tr>
@@ -1129,7 +984,6 @@ raw_data.head()
       <td>landingpage</td>
       <td>1</td>
       <td>1</td>
-      <td>1.0</td>
       <td>1.0</td>
       <td>1</td>
     </tr>
@@ -1143,7 +997,6 @@ raw_data.head()
       <td>3</td>
       <td>3</td>
       <td>1.0</td>
-      <td>3.0</td>
       <td>9</td>
     </tr>
     <tr>
@@ -1156,7 +1009,6 @@ raw_data.head()
       <td>2</td>
       <td>2</td>
       <td>1.0</td>
-      <td>2.0</td>
       <td>4</td>
     </tr>
     <tr>
@@ -1168,7 +1020,6 @@ raw_data.head()
       <td>homepage</td>
       <td>5</td>
       <td>0</td>
-      <td>0.0</td>
       <td>0.0</td>
       <td>25</td>
     </tr>
@@ -1184,6 +1035,14 @@ raw_data['which_page_altered'] = (
     np.where(raw_data.medium_grouped == 'organic',"special_homepage",
              np.where(raw_data.which_device == 'mobile_web',"not_special_homepage",raw_data.medium_grouped))
 ```
+
+
+      File "<ipython-input-33-4f6d0e8197d1>", line 3
+        np.where(raw_data.which_device == 'mobile_web',"not_special_homepage",raw_data.medium_grouped))
+                                                                                                       ^
+    SyntaxError: unexpected EOF while parsing
+
+
 
 
 ```python
@@ -1219,7 +1078,6 @@ raw_data.head(10)
       <th>sessions</th>
       <th>funnel_sessions</th>
       <th>par</th>
-      <th>testing</th>
       <th>transformed_variable</th>
     </tr>
   </thead>
@@ -1230,11 +1088,10 @@ raw_data.head(10)
       <td>(not set)</td>
       <td>mobile_web</td>
       <td>affiliate</td>
-      <td>not_special_homepage</td>
+      <td>homepage</td>
       <td>2</td>
       <td>1</td>
       <td>0.500000</td>
-      <td>0.5</td>
       <td>4</td>
     </tr>
     <tr>
@@ -1243,11 +1100,10 @@ raw_data.head(10)
       <td>(not set)</td>
       <td>mobile_web</td>
       <td>cpc</td>
-      <td>not_special_homepage</td>
+      <td>landingpage</td>
       <td>1</td>
       <td>1</td>
       <td>1.000000</td>
-      <td>1.0</td>
       <td>1</td>
     </tr>
     <tr>
@@ -1256,11 +1112,10 @@ raw_data.head(10)
       <td>(not set)</td>
       <td>mobile_web</td>
       <td>organic</td>
-      <td>special_homepage</td>
+      <td>homepage</td>
       <td>3</td>
       <td>3</td>
       <td>1.000000</td>
-      <td>3.0</td>
       <td>9</td>
     </tr>
     <tr>
@@ -1269,11 +1124,10 @@ raw_data.head(10)
       <td>(not set)</td>
       <td>mobile_web</td>
       <td>organic</td>
-      <td>special_homepage</td>
+      <td>landingpage</td>
       <td>2</td>
       <td>2</td>
       <td>1.000000</td>
-      <td>2.0</td>
       <td>4</td>
     </tr>
     <tr>
@@ -1282,11 +1136,10 @@ raw_data.head(10)
       <td>(not set)</td>
       <td>windows</td>
       <td>affiliate</td>
-      <td>affiliate</td>
+      <td>homepage</td>
       <td>5</td>
       <td>0</td>
       <td>0.000000</td>
-      <td>0.0</td>
       <td>25</td>
     </tr>
     <tr>
@@ -1295,11 +1148,10 @@ raw_data.head(10)
       <td>(not set)</td>
       <td>windows</td>
       <td>affiliate</td>
-      <td>affiliate</td>
+      <td>landingpage</td>
       <td>1</td>
       <td>0</td>
       <td>0.000000</td>
-      <td>0.0</td>
       <td>1</td>
     </tr>
     <tr>
@@ -1308,11 +1160,10 @@ raw_data.head(10)
       <td>(not set)</td>
       <td>windows</td>
       <td>affiliate</td>
-      <td>affiliate</td>
+      <td>others</td>
       <td>1</td>
       <td>0</td>
       <td>0.000000</td>
-      <td>0.0</td>
       <td>1</td>
     </tr>
     <tr>
@@ -1321,11 +1172,10 @@ raw_data.head(10)
       <td>(not set)</td>
       <td>windows</td>
       <td>cpc</td>
-      <td>cpc</td>
+      <td>homepage</td>
       <td>5</td>
       <td>3</td>
       <td>0.600000</td>
-      <td>1.8</td>
       <td>25</td>
     </tr>
     <tr>
@@ -1334,11 +1184,10 @@ raw_data.head(10)
       <td>(not set)</td>
       <td>windows</td>
       <td>direct</td>
-      <td>direct</td>
+      <td>homepage</td>
       <td>9</td>
       <td>6</td>
       <td>0.666667</td>
-      <td>4.0</td>
       <td>81</td>
     </tr>
     <tr>
@@ -1347,11 +1196,10 @@ raw_data.head(10)
       <td>(not set)</td>
       <td>windows</td>
       <td>email</td>
-      <td>email</td>
+      <td>homepage</td>
       <td>1</td>
       <td>1</td>
       <td>1.000000</td>
-      <td>1.0</td>
       <td>1</td>
     </tr>
   </tbody>
@@ -1653,6 +1501,218 @@ combined_df.head()
       <td>4</td>
       <td>1</td>
       <td>0.00</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+raw_data.head()
+```
+
+
+
+
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>country</th>
+      <th>which_device</th>
+      <th>medium_grouped</th>
+      <th>which_page_altered</th>
+      <th>sessions</th>
+      <th>funnel_sessions</th>
+      <th>par</th>
+      <th>transformed_variable</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>20180301</td>
+      <td>(not set)</td>
+      <td>mobile_web</td>
+      <td>affiliate</td>
+      <td>homepage</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.5</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>20180301</td>
+      <td>(not set)</td>
+      <td>mobile_web</td>
+      <td>cpc</td>
+      <td>landingpage</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>20180301</td>
+      <td>(not set)</td>
+      <td>mobile_web</td>
+      <td>organic</td>
+      <td>homepage</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>20180301</td>
+      <td>(not set)</td>
+      <td>mobile_web</td>
+      <td>organic</td>
+      <td>landingpage</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>20180301</td>
+      <td>(not set)</td>
+      <td>windows</td>
+      <td>affiliate</td>
+      <td>homepage</td>
+      <td>5</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>25</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+raw_data['new_column'] = raw_data['funnel_sessions']/raw_data['sessions']
+```
+
+
+```python
+(
+    pd.read_csv("../car-hire-projects/data/prefunnel_sessions.csv").drop(['Unnamed: 0'],1)
+    .pipe(lambda x:x.assign(par = x.funnel_sessions/x.sessions))
+#     .rename(columns={"which_page_altered":"which_page"})
+    .pipe(lambda x:x.assign())
+).head()
+```
+
+
+
+
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>country</th>
+      <th>which_device</th>
+      <th>medium_grouped</th>
+      <th>which_page_altered</th>
+      <th>sessions</th>
+      <th>funnel_sessions</th>
+      <th>par</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>20180301</td>
+      <td>(not set)</td>
+      <td>mobile_web</td>
+      <td>affiliate</td>
+      <td>homepage</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.5</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>20180301</td>
+      <td>(not set)</td>
+      <td>mobile_web</td>
+      <td>cpc</td>
+      <td>landingpage</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>20180301</td>
+      <td>(not set)</td>
+      <td>mobile_web</td>
+      <td>organic</td>
+      <td>homepage</td>
+      <td>3</td>
+      <td>3</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>20180301</td>
+      <td>(not set)</td>
+      <td>mobile_web</td>
+      <td>organic</td>
+      <td>landingpage</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>20180301</td>
+      <td>(not set)</td>
+      <td>windows</td>
+      <td>affiliate</td>
+      <td>homepage</td>
+      <td>5</td>
+      <td>0</td>
+      <td>0.0</td>
     </tr>
   </tbody>
 </table>

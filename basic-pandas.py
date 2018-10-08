@@ -256,3 +256,23 @@ combined_df = (
 
 combined_df.head()
 
+
+
+
+raw_data.head()
+
+
+
+
+raw_data['new_column'] = raw_data['funnel_sessions']/raw_data['sessions']
+
+
+
+
+(
+    pd.read_csv("../car-hire-projects/data/prefunnel_sessions.csv").drop(['Unnamed: 0'],1)
+    .pipe(lambda x:x.assign(par = x.funnel_sessions/x.sessions))
+#     .rename(columns={"which_page_altered":"which_page"})
+    .pipe(lambda x:x.assign())
+).head()
+
