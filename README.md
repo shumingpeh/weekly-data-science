@@ -33,10 +33,11 @@ Any good advanced calculus textbook will be useful as supplementary reading
 
 ## Lesson Plans (and how does everything tie in together)
 |Lesson No.   |Specific Learning Objective for the Lesson   |Topics Covered   |Which Topic does it Relate to   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+|---		  |---											|---			  |---							   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+
 Lesson No.	Specific Learning Objective for the Lesson	Topics Covered	Which Topic does it Relate to
 1	Intro to Basic Python	•	Installation of python and jupyter notebook
 •	Installation of python packages
