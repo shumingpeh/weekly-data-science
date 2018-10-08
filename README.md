@@ -34,9 +34,18 @@ Any good advanced calculus textbook will be useful as supplementary reading
 ## Lesson Plans (and how does everything tie in together)
 |Lesson No.   |Specific Learning Objective for the Lesson   |Topics Covered   |Which Topic does it Relate to   |
 |---		  |---											|---			  |---							   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
+|1   |Intro to Basic Python   |- Installation of python and jupyter notebook
+							   - Installation of python packages   |- Used in coding  |
+|2   |Intro to Pandas and Visualization   |   |   |
+|3   |Intro to Python Class Files   |   |   |
+|4   |Intro to SQL and Version Control   |   |   |
+|5   |Intro to Statistics and Probability Theory   |   |   |
+|6   |Intro to Linear Regression*   |   |   |
+|7   |Intro to Linear Algebra*   |   |   |
+|8   |Intro to Time Series Analysis*   |   |   |
+|9   |Intro to Optimization and Numerical Methods*   |   |   |
+|10   |Intro to Classical Machine Learning Algorithms*   |   |   |
+|11   |Intro to Neural Networks*   |   |   |
 
 Lesson No.	Specific Learning Objective for the Lesson	Topics Covered	Which Topic does it Relate to
 1	Intro to Basic Python	•	Installation of python and jupyter notebook
