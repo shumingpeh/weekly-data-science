@@ -43,35 +43,5 @@ Any good advanced calculus textbook will be useful as supplementary reading
 |7   |Intro to Linear Algebra*   |<ul><li>Intro to basic properties of matrices and vector spaces</li><li>Intro to solving system of linear equations with LA</li><li>Intro to eigen values/vectors</li><li>Intro to orthogonal</li><li>Intro to PCA</li><li>Intro to matrix factorization</li></ul>   |<ul><li>LA can also be used to solve linear regression</li><li>LA is often used in dimension reduction</li><li>LA links to ML algo like SVM and recommendation systems</li></ul>   |
 |8   |Intro to Time Series Analysis*   |<ul><li>Intro to stationary and non stationary series</li><li>Intro to stationary tests</li><li>Intro to ARIMA</li><li>Intro to exponential smoothing</li><li>Intro to state space models (BSTS)</li><li>Intro to distribution forecasting</li><li>Intro to probabilistic forecasting</li></ul>   |<ul><li>Not everything needs to be solved by ML</li></ul>   |
 |9   |Intro to Optimization and Numerical Methods*   |<ul><li>Intro to different optimization methods</li><li>Intro to splines</li><li>Intro to gradient descent</li><li>Intro to stochastic gradient descent</li></ul>   |<ul><li>Solving for loss function or the intuition of the loss function</li></ul>   |
-|10   |Intro to Classical Machine Learning Algorithms*   |<ul><li>Intro to supervised and unsupervised learning</li><li>Intro to unsupervised learning (clustering)</li><li>Intro to supervised learning</li><ul><li>Linear regression</li></ul></ul>  |   |
-|11   |Intro to Neural Networks*   |   |   |
-
-Lesson No.	Specific Learning Objective for the Lesson	Topics Covered	Which Topic does it Relate to
-
-
-
-
-
-
-
-
-
-10	Intro to Classical Machine Learning Algorithms*	•	Intro to supervised and unsupervised learning
-•	Intro to unsupervised learning (clustering)
-•	Intro to supervised learning
-o	Linear regression
-o	Logistics regression
-o	Generalized linear model
-o	Regularization
-o	Support Vector Machine (SVM)
-o	Linear Discriminant Analysis
-o	Nearest Neighbour
-o	Decision Trees
-o	Bagging
-o	Boosting
-o	Gradient Boosting	•	What is learnt above will be applied to here
-11	Intro to Neural Networks*	•	Intro to NN
-•	Intro to cNN, rNN and dNN (Deep learning)	•	Gradient descent
-•	Everything else above
-•	Differential equations
-*Code will be shown appropriately
+|10   |Intro to Classical Machine Learning Algorithms*   |<ul><li>Intro to supervised and unsupervised learning</li><li>Intro to unsupervised learning (clustering)</li><li>Intro to supervised learning</li><ul><li>Linear regression</li><li>Logistics regression</li><li>Generalized linear model</li><li>Regularization</li><li>Support Vector Machine (SVM)</li><li>Linear Discriminant Analysis</li><li>Nearest Neighbour</li><li>Decision Trees</li><li>Bagging</li><li>Boosting</li><li>Gradient Boosting</li></ul></ul>  |<ul><li>What is learnt above will be applied to here</li></ul>   |
+|11   |Intro to Neural Networks*   |<ul><li>Intro to NN</li><li>Intro to cNN, rNN and dNN (Deep learning)</li></ul>   |<ul><li>Gradient descent</li><li>Everything else above</li><li>Differential equations</li></ul>   |
