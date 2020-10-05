@@ -19,8 +19,8 @@ By the end of this course, you will be able to:
 No pre-requisite knowledge is required, everything will be covered in class. Even if you have no knowledge in calculus, it will be re-taught in class.
 
 ## Class Timings
-Every Saturday, 1030 – 1330 (ish)
-39 Robinson Road, Level 9, Potala
+~Every Saturday, 1030 – 1330 (ish)
+39 Robinson Road, Level 9, Potala~
 
 ## Recommended Text and Readings
 Any good advanced calculus textbook will be useful as supplementary reading
